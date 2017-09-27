@@ -22,3 +22,40 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+/***************************
+COMPONENT: APP
+***************************/
+
+
+/***************************
+COMPONENT: HorizontalMenu
+***************************/
+
+#horizontalmenu_ctn {
+    height: 250px;
+    width: 100%;
+}
+
+/***************************
+COMPONENT: VerticalMenu
+***************************/
+
+#verticalmenu_ctn {
+    display: none;
+}
+
+/***************************
+MEDIA QUERIES
+***************************/
+
+@media (min-width: 480px) {
+    #horizontalmenu {
+        display: none;
+    }
+    
+     #verticalmenu_ctn {
+        display: block;
+    }
+} 
+

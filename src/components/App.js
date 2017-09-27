@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 import VerticalMenu from './VerticalMenu';
+import HorizontalMenu from './HorizontalMenu';
 import Seed from './Seed';
 import '../App.css';
 
@@ -17,6 +18,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <HorizontalMenu />
         <VerticalMenu />
       </div>
     );

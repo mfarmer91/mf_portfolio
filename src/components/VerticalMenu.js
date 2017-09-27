@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 const VerticalMenu = () => (
-    <div className="ui left fixed inverted vertical menu">
+    <div id='verticalmenu_ctn' className="ui left fixed inverted vertical menu">
         <div className="item">
         <img className="ui image" src="../images/mf-046.png" />
         </div>
