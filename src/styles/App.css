@@ -47,7 +47,7 @@ COMPONENT: HorizontalMenu
     width: 129px;
     height: 129px;
     text-align: right;
-    margin-left: 60%;
+    margin-left: 57.5%;
 }
 
 #vertical-text {
@@ -55,7 +55,7 @@ COMPONENT: HorizontalMenu
 	position: relative;
     float: right;
     left: 15.5%;
-    top: 52.5px;
+    top: 54px;
     text-align: right;
     font-size: 0.8em;
     font-family: 'Roboto Condensed', sans-serif;
@@ -72,6 +72,8 @@ COMPONENT: VerticalMenu
 #verticalmenu_ctn {
     display: none;
 }
+
+
 
 
 

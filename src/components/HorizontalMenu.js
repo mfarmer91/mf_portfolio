@@ -1,5 +1,10 @@
 import React, { Component } from 'react';
 
+import {
+    Link,
+    Switch,
+    NavLink
+} from 'react-router-dom';
 
 const HorizontalMenu = () => (
     <div id='horizontalmenu'>
@@ -18,15 +23,18 @@ const HorizontalMenu = () => (
 
         </div>
         <div className="ui bottom attached tabular menu">
-          <a className="active item">
-            Active Project
-          </a>
-          <a className="item">
-            Project #2
-          </a>
-          <a className="item">
-            Project #3
-          </a>
+            <NavLink className='item' to='/About'>
+                About
+            </NavLink>
+            <NavLink className="item" to='/React'>
+                React
+            </NavLink>
+            <a className="item">
+                Wordpress
+            </a>
+            <a className="item">
+                 Blog
+            </a>
         </div>
     </div>
 );

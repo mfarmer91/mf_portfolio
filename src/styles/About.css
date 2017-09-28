@@ -1,0 +1,15 @@
+/***************************
+COMPONENT: About
+***************************/
+
+#first-card {
+    margin-top: 5%;
+}
+
+#last-card {
+    margin-bottom: 5%;
+}
+
+.link {
+    text-decoration: none;
+}
