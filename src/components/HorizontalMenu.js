@@ -1,5 +1,10 @@
 import React, { Component } from 'react';
 
+import About from './About';
+import Projects from './Projects';
+import Resume from './Resume';
+import Blog from './Blog';
+
 import {
     Link,
     Switch,
@@ -23,18 +28,22 @@ const HorizontalMenu = () => (
 
         </div>
         <div className="ui bottom attached tabular menu">
-            <NavLink className='item' to='/About'>
-                About
-            </NavLink>
-            <NavLink className="item" to='/React'>
-                React
-            </NavLink>
-            <a className="item">
-                Wordpress
-            </a>
-            <a className="item">
-                 Blog
-            </a>
+           <NavLink to='/About'
+                            className='item'>
+                                About
+                        </NavLink>
+                        <NavLink to='/Projects'
+                            className="item">
+                                Projects
+                        </NavLink>
+                        <NavLink to='/Resume'
+                            className="item">
+                                Resume
+                        </NavLink>
+                        <NavLink to='/Blog'
+                            className="item">
+                                Blog
+                        </NavLink>
         </div>
     </div>
 );
