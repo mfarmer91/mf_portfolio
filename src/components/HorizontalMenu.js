@@ -29,21 +29,21 @@ const HorizontalMenu = () => (
         </div>
         <div className="ui bottom attached tabular menu">
            <NavLink to='/About'
-                            className='item'>
-                                About
-                        </NavLink>
-                        <NavLink to='/Projects'
-                            className="item">
-                                Projects
-                        </NavLink>
-                        <NavLink to='/Resume'
-                            className="item">
-                                Resume
-                        </NavLink>
-                        <NavLink to='/Blog'
-                            className="item">
-                                Blog
-                        </NavLink>
+                className='item'>
+                    About
+            </NavLink>
+            <NavLink to='/Projects'
+                className="item">
+                    Projects
+            </NavLink>
+            <NavLink to='/Resume'
+                className="item">
+                    Resume
+            </NavLink>
+            <NavLink to='/Blog'
+                className="item">
+                    Blog
+            </NavLink>
         </div>
     </div>
 );

@@ -1,0 +1,106 @@
+/***************************
+COMPONENT: Resume
+***************************/
+
+#work_experience_ctn,
+#highlights_ctn,
+#languages_ctn {
+    text-align: left;
+    margin: 2.5%;
+}
+
+#date_one, 
+#date_two, 
+#date_three, 
+#date_four, 
+#date_five, 
+#date_six, 
+#date_seven, 
+#date_eight, 
+#date_nine, 
+#date_ten {
+    font-weight: 100;
+    float: right;
+    font-size: 0.75em;
+}
+
+#highlights_text {
+    font-style: italic;
+    font-size: .95em;
+}
+
+#language_subheader_programming,
+#language_subheader_foreign {
+    font-style: italic;
+    font-weight: 600;
+    font-size: 1.1em;
+}
+
+ul {
+    list-style: circle; 
+}
+
+.resume_line_two {
+    font-weight: 100;
+    font-style: italic;
+}
+
+.sub_header {
+    font-size: 1.1em;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+li {
+    font-size: 0.95em;
+}
+
+#resume_header {
+    margin-top: 5%;
+    font-size: 3em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+
+/***************************
+Media Queries
+***************************/
+
+@media (min-width: 480px) {
+
+     #resume_ctn {
+            width: 50%;
+            margin-left: 44%;
+        }
+    }
+
+@media (min-width: 768px) { 
+     
+    #resume_ctn {
+        width: 100%;
+        margin: 2.5% 0 5% 250px;
+    }
+    
+    
+    #work_experience_ctn,
+    #languages_ctn {
+        width: 60%;
+        margin-top: 3%;
+    }
+    
+    #highlights_ctn {
+        width: 60%;
+        margin-top: 0;
+    }
+    
+    #resume_header {
+        font-size: 5em;
+        margin-top: 2.5%;
+        margin-bottom: 2.5%;
+        font-weight: 100;
+        text-align: left;
+        margin-left: 32.5px;
+    }
+}
+
+

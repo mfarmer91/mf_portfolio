@@ -3,6 +3,8 @@ import React, { Component } from 'react';
 import VerticalMenu from './VerticalMenu';
 import HorizontalMenu from './HorizontalMenu';
 import Projects from './Projects';
+import Resume from './Resume';
+
 
 import Seed from './Seed';
 import About from './About';
@@ -41,6 +43,8 @@ class App extends Component {
                 <Switch>
                     <Route path='/About' component={About} />
                     <Route path='/Projects' component={Projects} />
+                    <Route path='/Resume' component={Resume} />
+
                     <Route render={({location}) => (
                     <div className='ui segment'><h3>I like your style.  You went beyond the norm, like me.  However, <code>{location.pathname}</code> path does not exist.</h3></div>
                     )} />

@@ -36,13 +36,6 @@ COMPONENT: HorizontalMenu
     width: 100%;
 }
 
-#contact_ctn {
-    text-align: right;
-    font-family: 'Roboto Condensed', sans-serif;
-    padding-right: 5px;
-    margin-top: 15%;
-}
-
 #img_card {
     width: 129px;
     height: 129px;
