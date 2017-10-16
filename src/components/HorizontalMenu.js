@@ -14,8 +14,8 @@ import {
 const HorizontalMenu = () => (
     <div id='horizontalmenu'>
         <div id='horizontalmenu_ctn' className="ui top attached segment">
-            <h1 className='ui right aligned header'>Hi!<i className="em em-raised_hand"></i> I'm Michael.
-                <div className="sub header">And yes, I will build your next website.</div>
+            <h1 className='ui right aligned header'>Michael Farmer
+                <div className="sub header">front-end web developer</div>
             </h1>
             <div className='container'>
                 <div id='vertical-text' className='description'>mfarmer91@gmail.com<i id='arrow' className="em em-arrow_left"></i></div>
