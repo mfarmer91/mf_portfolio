@@ -54,6 +54,11 @@ COMPONENT: HorizontalMenu
     font-family: 'Roboto Condensed', sans-serif;
 }
 
+#vertical-text-link {
+    text-decoration: none;
+    color: black;
+}
+
 #arrow {
     margin-left: 5px;
 }
@@ -65,9 +70,6 @@ COMPONENT: VerticalMenu
 #verticalmenu_ctn {
     display: none;
 }
-
-
-
 
 
 /***************************

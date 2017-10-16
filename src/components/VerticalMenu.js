@@ -11,8 +11,8 @@ const VerticalMenu = () => (
     <div id='verticalmenu_ctn' className="ui left fixed inverted vertical menu">
         <div>
              <div className="ui inverted top attached segment">
-                <h1 className='ui right aligned header'>Hi!<i className="em em-raised_hand"></i> I'm Michael.
-                    <h4 className="tiny header">And yes, I will build your next website.</h4>
+                <h1 id='vertical_header' className='ui right aligned header'>Michael Farmer
+                    <h4 id='vertical_sub_header' className="tiny header">front-end web developer</h4>
                 </h1>
                 <div className='container'>
                     <div id='vertical_img_card' className="ui card">
@@ -35,10 +35,6 @@ const VerticalMenu = () => (
             <NavLink to='/Resume'
                 className="item">
                     Resume
-            </NavLink>
-            <NavLink to='/Blog'
-                className="item">
-                    Blog
             </NavLink>
             <div className='item'>
             </div>

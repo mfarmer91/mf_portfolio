@@ -12,16 +12,6 @@ const About = () => (
               <p>Yes.  In fact, I'm a front-end web developer; specializing in building custom websites in ReactJS and Wordpress.</p>
             </div>
           </div>
-          <div className="extra content">
-            <span className="left floated like">
-              <i className="like icon"></i>
-              Agree
-            </span>
-            <span className="right floated star">
-              <i className="star icon"></i>
-              He's a star.
-            </span>
-          </div>
         </div>
 
         <div id='middle-card' className="ui centered card">
@@ -31,16 +21,6 @@ const About = () => (
               <p><i className='em em-100'></i>  percent yes.  "But I want a..." Yes, I can build that -- webstore, company website, blog, web app, portfolio -- for you.  Plus, we'll design it so you can operate the website on your own.</p>
             </div>
           </div>
-          <div className="extra content">
-            <span className="left floated like">
-              <i className="like icon"></i>
-              Agree
-            </span>
-            <span className="right floated star">
-              <i className="star icon"></i>
-              He's a star.
-            </span>
-          </div>
         </div>
     
          <div id='last-card' className="ui red centered card">
@@ -49,7 +29,7 @@ const About = () => (
             <div id='about-description-bottom' className="description">
               <a className='link' href='mailto: mfarmer91@gmail.com'>email: mfarmer91@gmail.com</a>
             </div>
-             <div className="description">
+             <div id='about-description-tel' className="description">
               <a className='link' href='tel:+14343266629'>call: (434) 326-6629</a>
             </div>
 

@@ -5,3 +5,12 @@ COMPONENT: Vertical Menu
 #verticalmenu_ctn {
     display: block;
 }
+
+#vertical_header {
+    font-size: 2.5em;
+}
+
+#vertical_sub_header {
+    margin-top: 5%;
+    color: lightgrey;
+}

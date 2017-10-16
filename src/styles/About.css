@@ -58,8 +58,10 @@ MEDIA QUERIES
     
     #about-description-top,
     #about-description-middle,
-    #about-description-bottom {
-        font-size: 1.5em;    
+    #about-description-bottom,
+    #about-description-tel {
+        font-size: 1.5em;
+        margin-top: 1.5%;
     }
     
     #about_header {
