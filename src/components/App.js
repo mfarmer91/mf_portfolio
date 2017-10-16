@@ -4,11 +4,7 @@ import VerticalMenu from './VerticalMenu';
 import HorizontalMenu from './HorizontalMenu';
 import Projects from './Projects';
 import Resume from './Resume';
-
-
-import Seed from './Seed';
 import About from './About';
-import '../styles/App.css';
 
 import {
     BrowserRouter as Router,
@@ -18,42 +14,35 @@ import {
     NavLink
 } from 'react-router-dom'
 
+import '../styles/App.css';
 import createHistory from 'history/createBrowserHistory';
 
 const history = createHistory();
 
-
 class App extends Component {
-    
-    state = {
-        images: [],
-    };
-
-  componentDidMount() {
-    this.setState({ images: Seed.images });
-  }
-
-  render() {
-    return (
-      <div className="App">
+    render() { 
+        return (
+            <div className="App">
         <Router>
             <div>
                 <HorizontalMenu />
                 <VerticalMenu />
-                <Switch>
-                    <Route path='/About' component={About} />
-                    <Route path='/Projects' component={Projects} />
-                    <Route path='/Resume' component={Resume} />
-
-                    <Route render={({location}) => (
-                    <div className='ui segment'><h3>I like your style.  You went beyond the norm, like me.  However, <code>{location.pathname}</code> path does not exist.</h3></div>
-                    )} />
-                </Switch>
+                    <Switch>
+                        <Route path='/About' component={About} />
+                        <Route path='/Projects' component={Projects} />
+                        <Route path='/Resume' component={Resume} />
+                                <Route exact={true} path ='/' component={About} />
+                                <Route render={({location}) => (
+                                <div className='ui segment'><h3>I like your style.  You went beyond the norm, like me.  However, the <code>{location.pathname}</code> path does not exist.</h3></div>
+                                )} />
+                            </Switch>
+                        </div>
+                    </Router>
             </div>
-        </Router>
-      </div>
-    );
-  }
+        );
+    }
 }
 
 export default App;
+
+
