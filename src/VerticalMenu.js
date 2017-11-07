@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../styles/VerticalMenu.css';
+import './VerticalMenu.css';
 
 import {
     Link,
@@ -17,7 +17,7 @@ const VerticalMenu = () => (
                 <div className='container'>
                     <div id='vertical_img_card' className="ui card">
                       <div className="image">
-                        <img src={require("../images/mf-head.png")} />
+                        <img src={require("./mf-head.png")} />
                       </div>
                     </div>
                 </div>

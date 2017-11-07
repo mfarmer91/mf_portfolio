@@ -14,7 +14,7 @@ import {
     NavLink
 } from 'react-router-dom'
 
-import '../styles/App.css';
+import './App.css';
 import createHistory from 'history/createBrowserHistory';
 
 const history = createHistory();
